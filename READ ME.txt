@@ -1,0 +1,34 @@
+PREREQUISITES:
+
+- Script Hook V
+  https://www.gta5-mods.com/tools/script-hook-v
+- Script Hook V Dot Net + the dependencies
+  https://www.gta5-mods.com/tools/scripthookv-net
+
+
+INSTALLATION:
+
+- If you have an old .dll or .vb version of this mod installed, remove it.
+- Place the EnhancedTaxiMissions.vb and EnhancedTaxiMissions.ini files into the "scripts" folder in your main GTAV directory. Create the folder if it doesn't exist.
+
+
+CUSTOMIZATION:
+
+Edit the values in EnhancedTaxiMissions.ini to customize the experience to your taste.
+
+- Toggle Key: Valid options are "A" through "Z", "0" through "9", and "F1" through "F12"
+- Units: Valid options are "KM" for kilometers and "MI" for miles
+- Fare per mile: amount the player earns per mile driven with a customer on board.
+- Average Speed: number used to calculate how quickly you need to arrive at your destination in order to receive a tip. Higher numbers mean you need to drive faster. 80 is a good number for those of you who want to drive as fast as possible. 20 is a good number for those of you who like to follow the rules while driving. Change it to suit your playstyle.
+- Autosave: enter 1 to enable autosaving after each successfully completed fare.
+- Hazard Lights: enter 1 to use flashing hazard lights while you're waiting for your passengers to enter and exit the vehicle. Enter 0 to turn the function off.
+
+
+KNOWN BUGS:
+- If peds are startled while walking to your car (e.g., nearly run over by another driver), they may lose focus and just stand around. Honk your horn to reset their pathfinding algorithm. They will eventually warp into your car if it takes them too long to get to you or if there is an obstruction.
+
+
+NOTES:
+
+
+Please note that if the script can't find the EnhancedTaxiMissions.ini file, it will revert to the default values (toggle key = L, units = km, fare per mile = 20, average speed = 35, autosave = off, hazard lights = on)
