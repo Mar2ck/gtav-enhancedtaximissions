@@ -1266,11 +1266,11 @@ Public Class EnhancedTaxiMissions
                 If Game.Player.Character.IsInVehicle Then
                     Dim maxSeats As Integer = Native.Function.Call(Of Integer)(Native.Hash.GET_VEHICLE_MAX_NUMBER_OF_PASSENGERS, Game.Player.Character.CurrentVehicle)
 
-                    If maxSeats >= 3 Then
+                    If maxSeats >= 1 Then
                         StartMinigame()
                         isMinigameActive = True
                     Else
-                        GTA.UI.Notify("Taxi missions can only be started in a vehicle that can seat 3 passengers.")
+                        GTA.UI.Notify("Taxi missions can only be started in a vehicle that can seat a passenger.")
                     End If
 
                 End If
