@@ -1,8 +1,12 @@
 # GTA V - Enhanced Taxi Missions
-A ScriptHookVDotNet mod for Grand Theft Auto V, which aims to improve the taxi driver minigame.
+A fork of the Enhanced Taxi Missions mod for Grand Theft Auto V modified to work with any vehicle with atleast two seats rather then requiring four seats
+
+## Bugs
+* More passengers then the vehicle can accommidate are still spawned most of the time
+* Sometimes passengers won't be able to get in even if a seat is availiable for them
 
 
-
+# Orignal Readme:
 #Features
 - Random number of passengers for each trip (between 1 and 3)
 - 475 individual pick-up and drop-off locations
